@@ -1,0 +1,3 @@
+before_install:
+  - npm install
+  - node_modules\.bin\papogen -s .\ -g md -m md_doc -o docs -t WasmVM
